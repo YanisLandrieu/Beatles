@@ -96,7 +96,7 @@ p, li {
 #discographie{
 	padding-top: 20px;
 	padding-bottom: 40px;
-    background-color: #2c83f5;
+    background-color: #0047AB;
 }
 
 .disco {
@@ -107,6 +107,11 @@ p, li {
 #discographie p {
     color: #fff;
     font-family: "obviously", sans-serif;
+}
+
+#discographie h1 {
+    color: #fff;
+    
 }
 
 
