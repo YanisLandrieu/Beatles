@@ -120,19 +120,23 @@ p, li {
 }
 
 #clip {
-	padding-top: 20px;
-	padding-bottom: 40px;
     background-color: #800020;
 }
 
 #clip h1 {
+    padding-top: 20px;
     color: #fff;
 }
 
-.btn {
-    color: #000;
+#clip p {
+    color: #fff;
+    font-family: "obviously", sans-serif;
 }
 
-i {
-    color:#fff;
+#clip img{
+	max-width: 80%;
+    margin: auto;
+    height: auto;
+	display: block;
+	padding-left: 30px;
 }
