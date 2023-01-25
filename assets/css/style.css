@@ -1,0 +1,138 @@
+@import url('https://fonts.cdnfonts.com/css/beatles');
+@import url("https://use.typekit.net/rgv8dve.css");
+@import url('https://fonts.cdnfonts.com/css/keep-on-truckin-2');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    font-family: 'Keep on Truckin', sans-serif;
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Keep on Truckin', sans-serif;
+    font-size: 50px;
+}
+
+p, li {
+    font-size: 20px;
+}
+
+
+
+/* navbar */
+.navbar-nav{
+	margin-right: 0 !important;
+	padding-right: 100px;
+}
+.navbar{
+	background-color: #fff;
+	color: #000 ;
+}
+.nav-item a{
+	color: #000 !important;
+}
+.nav-item {
+	padding-left: 10px;
+}
+.navbar-brand{
+	color: #000!important;
+	padding-left: 10px;
+    font-family: 'BEATLES', sans-serif;
+}
+#navbar button{
+	color: #000 !important;
+}
+
+#banner-container{
+	background-color: #074241;
+	color: #fff !important;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+#banner-row img{
+	max-width: 90%;
+	height: auto;
+	display: block;
+	padding-left: 30px;
+}
+
+#banner-row a{
+	background-color: #fff !important;
+	color: #000 !important;
+	border: none;
+	margin-left: 20px;
+	margin-top: 20px; 
+}
+
+#banner-row h3,p{
+	padding-left: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+#banner-col{
+	padding-left: 20px;
+}
+
+#about{
+	padding-top: 20px;
+	padding-bottom: 50px;
+    background-color: #f5b52c;
+}
+#about h1{
+	padding-bottom: 20px;
+}
+#about-col ul{
+	padding-left: 30px;
+}
+#about-col ul li{
+	padding-top: 15px;
+}
+
+#discographie{
+	padding-top: 20px;
+	padding-bottom: 40px;
+    background-color: #2c83f5;
+}
+
+.disco {
+    padding-top: 80px;
+}
+
+
+#discographie p {
+    color: #fff;
+    font-family: "obviously", sans-serif;
+}
+
+
+
+#discographie img{
+	max-width: 70%;
+    margin: auto;
+    height: auto;
+	display: block;
+	padding-left: 30px;
+}
+
+#clip {
+	padding-top: 20px;
+	padding-bottom: 40px;
+    background-color: #800020;
+}
+
+#clip h1 {
+    color: #fff;
+}
+
+.btn {
+    color: #000;
+}
+
+i {
+    color:#fff;
+}
