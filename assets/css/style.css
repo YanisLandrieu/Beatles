@@ -153,3 +153,12 @@ p, li {
 	display: block;
 	padding-left: 30px;
 }
+
+@media (min-width: 766px) {
+	#lirelasuite {
+		display: block
+	}
+	#extend, #reduct {
+		display: none
+	}
+}
