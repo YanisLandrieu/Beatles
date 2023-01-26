@@ -2,7 +2,8 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="description" content="TP Accessibilité ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Les Beatles - Fan Page</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
@@ -11,7 +12,7 @@
 </head>
 <body>
     <section id="navbar">
-		<nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top "> 
 			<div class="container-fluid">
 			<a class="navbar-brand" href="#">LES BEATLES</a>
 			<button
@@ -26,7 +27,7 @@
 				<ul class="navbar-nav m-auto">
 					<li class="nav-item"><a class="nav-link active"aria-current="page"href="#intro">Intro</a>
 					</li>
-					<li class="nav-item"><a class="nav-link"href="#about">About</a>
+					<li class="nav-item"><a class="nav-link"href="#about">À propos</a>
 					</li>
 					<li class="nav-item"><a class="nav-link"href="#discographie">Discographie</a>
 					</li>
@@ -56,7 +57,7 @@
 		</section>
 
         <section id="about">
-			<h1 class="text-center">ABOUT</h1>
+			<h1 class="text-center">A PROPOS</h1>
 			<div class="container-fluid" id="about-container">
 				<div class="row" id="banner-row">
 					<div class="col-md-5" id="about-col">
@@ -64,8 +65,10 @@
 							<li>
 								Après avoir débuté sous le signe du skiffle des années 1950, les Beatles ont rapidement fait évoluer leur style, se nourrissant de nombreuses sources pour inventer leur propre langage musical. Leurs expérimentations techniques et musicales, leur popularité mondiale et leur conscience politique grandissante au fil de leur carrière, ont étendu l'influence des Beatles au-delà de la musique, jusqu'aux révolutions sociales et culturelles de leur époque. 
 							</li>
-							<li>Au tout début des années 1960, Lennon, McCartney et Harrison deviennent populaires dans les clubs de Liverpool et de Hambourg en reprenant des standards du rock 'n' roll, mais Lennon et McCartney se sont également associés dès leur rencontre en 1957 pour écrire des chansons originales par dizaines, affinant progressivement leur technique. </li>
-                            <li>Tenant une place de premier plan dans la « bande-son » des années 1960, les chansons des Beatles sont toujours jouées et reprises dans le monde entier, et leurs mélodies ont été adaptées à de nombreux genres musicaux, dont le jazz, la salsa, le reggae ou la musique classique.</li>					
+							<li id="lirelasuite">Au tout début des années 1960, Lennon, McCartney et Harrison deviennent populaires dans les clubs de Liverpool et de Hambourg en reprenant des standards du rock 'n' roll, mais Lennon et McCartney se sont également associés dès leur rencontre en 1957 pour écrire des chansons originales par dizaines, affinant progressivement leur technique.
+              Tenant une place de premier plan dans la « bande-son » des années 1960, les chansons des Beatles sont toujours jouées et reprises dans le monde entier, et leurs mélodies ont été adaptées à de nombreux genres musicaux, dont le jazz, la salsa, le reggae ou la musique classique.</li>
+              <a href="#" onclick="document.getElementById('lirelasuite').style.display = 'block'; this.style.display = 'none'; document.getElementById('reduct').style.display = 'block';" role="button" class="footer-link mb-4" id="extend">En savoir plus</a>
+              <a href="#" onclick="document.getElementById('lirelasuite').style.display = 'none'; this.style.display = 'none'; document.getElementById('extend').style.display = 'block';" role="button" class="footer-link mb-4" id="reduct">Réduire</a>			
 						</ul>
 					</div>
 					<div class="col-md-7" id="banner-col2">
@@ -166,7 +169,7 @@
 		</section>
 
         <section id="clip">
-			<h1 class="text-center">CLIP & LIVE</h1>
+			<h1 class="text-center">CLIP</h1>
 			<div class="container-fluid disco" id="clip-container">
 				<div id="carouselExampleIndicator" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
@@ -229,9 +232,9 @@
               <!-- Section: Social media -->
             </div>
             
-            <div class="text-center p-3" >
-              © 2022 Beatles - 
-              <a class="text-white" href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/" target="_blank">RGAA</a>
+            <div class="text-center " >
+              © 2022 Beatles  
+              <a class="text-white" href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/" target="_blank"> - Accessibilité</a>
             </div>
             
           </footer>
